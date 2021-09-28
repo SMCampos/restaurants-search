@@ -17,19 +17,19 @@ Aguarde um tempinho que o VS Code irá criar a estrutura do projeto.
 Após finalizada a criação da estrutura das pastas do projeto, ainda no terminal integrado navegue para a pasta que foi criada utilize o comando: `cd reastaurants-search
 Após se certificar que está na pasta correta você precisa instalar algumas bibliotecas:
   
-@material/ui-core
-@material/react-text-field
-google-maps-react
-react-dom
-react-lottie
-react-rating-stars-component
-react-redux
-react-scripts
-react-slick
-redux
-slick-carousel
-styled-components
-styled-reset
+@material/ui-core \
+@material/react-text-field \
+google-maps-react \
+react-dom \
+react-lottie \
+react-rating-stars-component \
+react-redux \
+react-scripts \
+react-slick \
+redux \
+slick-carousel \
+styled-components \
+styled-reset \
 
 Para inicializar o projeto confirme que está na pasta do projeto (restaurants-search) digite no terminal integrado do VS Code o comando npm start
 
