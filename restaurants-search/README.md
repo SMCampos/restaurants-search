@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+### Projeto desenvolvido durante Bootcamps da Digital Innovation One tendo como instrutor [Patrick Narciso](https://github.com/patrick-narciso).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O projeto tem por objetivo criar sistema web de busca de restaurantes, parecido com o serviço que o Google oferece. Vamos desenvolver esse buscador usando React.JS e API do Google
 
-## Available Scripts
+Para criar esse projeto usaremos React Js Também é necessário ter instalado no computador o Node.js (https://nodejs.org/pt-br/) e o Gerenciador de Pacotes NPM, que já será instalado junto com o Node.js
 
-In the project directory, you can run:
+Para desenvolver o projeto utilizamos o Visual Studio Code (VS Code).
 
-### `npm start`
+Para criar o projeto crie em seu computador uma pasta com o nome que desejar, por exemplo: projeto-react
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Abra a pasta no VS Code.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Para criar o projeto digite o comando: npx create-react-app <nome-do-projeto> Como exemplo eu utilizei: `npx create-react-app restaurants-search`
+  
+Aguarde um tempinho que o VS Code irá criar a estrutura do projeto.
+  
+Após finalizada a criação da estrutura das pastas do projeto, ainda no terminal integrado navegue para a pasta que foi criada utilize o comando: `cd reastaurants-search
+Após se certificar que está na pasta correta você precisa instalar algumas bibliotecas:
+  
+@material/ui-core
+@material/react-text-field
+google-maps-react
+react-dom
+react-lottie
+react-rating-stars-component
+react-redux
+react-scripts
+react-slick
+redux
+slick-carousel
+styled-components
+styled-reset
 
-### `npm test`
+Para inicializar o projeto confirme que está na pasta do projeto (restaurants-search) digite no terminal integrado do VS Code o comando npm start
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Caso não abra de forma automática no seu navegador padrão, clique ou copie o seguinte link http://localhost:3000.
+  
+Para parar a aplicação pressione as Teclas CTRL + C no terminal integrado do VS Code.
+  
+Para o desenvolvimento do projeto é necessário ter uma conta Google e se logar na Google Cloud Platform - GCP, criar um novo projeto na plataforma e criar uma nova credencial do tipo chave de API a qual será utilizada no projeto que está sendo desenvolvido no VS Code.
+  
+No projeto no GCP também precisam ser ativas as APIs: Maps JavaScript API e Places API.
+  
+Com a chave de API criada é necessário restringir as API, para isso em Restrições de API selecione apenas as duas APIs acima informadas e clique em salvar.
+  
+Caso você prefira fazer o download desse repositório ou realizar o clone do repositório não de esqueça de instalar as dependências do Node JS. para isso assim que abrir o projeto no seu VS Code digite o comando npm install e depois não se esqueça de instalar as outras bibliotecas utilizadas no projeto conforme orientações acima.
