@@ -1,6 +1,6 @@
 ### Projeto desenvolvido durante Bootcamps da Digital Innovation One tendo como instrutor [Patrick Narciso](https://github.com/patrick-narciso).
 
-O projeto tem por objetivo criar sistema web de busca de restaurantes, parecido com o serviço que o Google oferece. Vamos desenvolver esse buscador usando React.JS e API do Google
+O projeto tem por objetivo criar sistema web de busca de restaurantes, similar ao serviço que o Google oferece. Vamos desenvolver esse buscador usando React.JS e API do Google
 
 Para criar esse projeto usaremos React Js Também é necessário ter instalado no computador o Node.js (https://nodejs.org/pt-br/) e o Gerenciador de Pacotes NPM, que já será instalado junto com o Node.js
 
